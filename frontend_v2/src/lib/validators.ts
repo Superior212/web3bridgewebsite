@@ -37,6 +37,7 @@ export const formSchema = z.object({
   gender: z.enum(["male", "female"], {
     required_error: "You need to select a gender type.",
   }),
+  cohort: z.string({ required_error: "Cohort is required" }),
 });
 
 export const otherSchema = z.object({

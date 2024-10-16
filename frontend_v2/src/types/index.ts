@@ -11,4 +11,5 @@ interface FormDataType {
   motivation: string;
   achievement: string;
   wallet_address: string;
+  cohort: string;
 }
